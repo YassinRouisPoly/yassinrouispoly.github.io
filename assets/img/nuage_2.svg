@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="133.86102mm"
+   height="54.061829mm"
+   viewBox="0 0 133.86102 54.061829"
+   version="1.1"
+   id="svg5"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+   
+   <filter id="blur" width="160%" height="160%" x="-30%" y="-30%">
+      <!-- insert a neutral background color to prevent the backdrop showing
+         through blurred regions with alpa < 1 -->
+      <feFlood flood-color="#fff" result="neutral"/>
+      <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blurred" />
+      <feMerge>
+         <feMergeNode in="neutral" />
+         <feMergeNode in="blurred" />
+      </feMerge>
+   </filter>
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-76.138979,-85.662397)">
+    <g
+       id="g414"
+       transform="matrix(1.2216925,0,0,1,70.833226,12.389339)"
+       inkscape:export-filename="nuage_2.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       style="fill:#ffffff">
+      <circle
+         style="fill:#ffffff;fill-rule:evenodd;stroke-width:0;stroke-linecap:square;stroke-miterlimit:4.2;paint-order:stroke fill markers"
+         id="path184"
+         cx="36.823872"
+         cy="107.03013"
+         r="20.30475" />
+      <circle
+         style="fill:#ffffff;fill-rule:evenodd;stroke-width:0;stroke-linecap:square;stroke-miterlimit:4.2;paint-order:stroke fill markers"
+         id="path186"
+         cx="53.230263"
+         cy="95.067131"
+         r="21.794071" />
+      <ellipse
+         style="fill:#ffffff;fill-rule:evenodd;stroke-width:0;stroke-linecap:square;stroke-miterlimit:4.2;paint-order:stroke fill markers"
+         id="path188"
+         cx="75.024338"
+         cy="95.067131"
+         rx="12.307145"
+         ry="11.962997" />
+      <ellipse
+         style="fill:#ffffff;fill-rule:evenodd;stroke-width:0;stroke-linecap:square;stroke-miterlimit:4.2;paint-order:stroke fill markers"
+         id="path190"
+         cx="94.296646"
+         cy="109.17722"
+         rx="19.616449"
+         ry="18.157667" />
+      <rect
+         style="fill:#ffffff;fill-rule:evenodd;stroke-width:0;stroke-linecap:square;stroke-miterlimit:4.2;paint-order:stroke fill markers"
+         id="rect402"
+         width="76.365234"
+         height="25.728909"
+         x="17.931414"
+         y="101.60596" />
+      <ellipse
+         style="fill:#ffffff;fill-rule:evenodd;stroke-width:0;stroke-linecap:square;stroke-miterlimit:4.2;paint-order:stroke fill markers"
+         id="path406"
+         cx="16.519121"
+         cy="114.47042"
+         rx="12.176166"
+         ry="12.864459" />
+    </g>
+  </g>
+</svg>

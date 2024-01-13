@@ -1,0 +1,102 @@
+<svg id="e0LBqo9lTQH1"
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 112.42199 112.42188" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+	<style>
+		#e0LBqo9lTQH3 {
+			animation: e0LBqo9lTQH3_c_o 3000ms linear infinite normal forwards
+		}
+		@keyframes e0LBqo9lTQH3_c_o {
+			0% {opacity: 1}
+			36.842105% {opacity: 1}
+			50% {opacity: 0}
+			86.842105% {opacity: 0}
+			100% {opacity: 1}
+		}
+		#e0LBqo9lTQH4 {
+			animation: e0LBqo9lTQH4_c_o 3000ms linear infinite normal forwards
+		}
+		@keyframes e0LBqo9lTQH4_c_o {
+			0% {opacity: 1}
+			31.578947% {opacity: 1}
+			44.736842% {opacity: 0}
+			81.578947% {opacity: 0}
+			94.736842% {opacity: 1}
+			100% {opacity: 1}
+		}
+		#e0LBqo9lTQH5 {
+			animation: e0LBqo9lTQH5_c_o 3000ms linear infinite normal forwards
+		}
+		@keyframes e0LBqo9lTQH5_c_o {
+			0% {opacity: 1}
+			26.315789% {opacity: 1}
+			39.473684% {opacity: 0}
+			76.315789% {opacity: 0}
+			89.473684% {opacity: 1}
+			100% {opacity: 1}
+		} 
+		#e0LBqo9lTQH6 {
+			animation: e0LBqo9lTQH6_c_o 3000ms linear infinite normal forwards
+		}
+		@keyframes e0LBqo9lTQH6_c_o {
+			0% {opacity: 1}
+			21.052632% {opacity: 1}
+			34.210526% {opacity: 0}
+			71.052632% {opacity: 0}
+			84.210526% {opacity: 1}
+			100% {opacity: 1}
+		}
+		#e0LBqo9lTQH7 {
+			animation: e0LBqo9lTQH7_c_o 3000ms linear infinite normal forwards
+		}
+		@keyframes e0LBqo9lTQH7_c_o {
+			0% {opacity: 1} 
+			15.789474% {opacity: 1} 
+			28.947368% {opacity: 0} 
+			65.789474% {opacity: 0} 
+			78.947368% {opacity: 1}
+			100% {opacity: 1}
+		}
+		#e0LBqo9lTQH8 {
+			animation: e0LBqo9lTQH8_c_o 3000ms linear infinite normal forwards
+		}
+		@keyframes e0LBqo9lTQH8_c_o {
+			0% {opacity: 1}
+			10.526316% {opacity: 1}
+			23.684211% {opacity: 0}
+			60.526316% {opacity: 0}
+			73.684211% {opacity: 1}
+			100% {opacity: 1}
+		}
+		#e0LBqo9lTQH9 {
+			animation: e0LBqo9lTQH9_c_o 3000ms linear infinite normal forwards
+		}
+		@keyframes e0LBqo9lTQH9_c_o {
+			0% {opacity: 1}
+			5.263158% {opacity: 1}
+			18.421053% {opacity: 0}
+			55.263158% {opacity: 0}
+			68.421053% {opacity: 1}
+			100% {opacity: 1}
+		}
+		#e0LBqo9lTQH10 {
+			animation: e0LBqo9lTQH10_c_o 3000ms linear infinite normal forwards
+		}
+		@keyframes e0LBqo9lTQH10_c_o { 
+			0% {opacity: 1} 
+			13.157895% {opacity: 0} 
+			50% {opacity: 0} 
+			63.157895% {opacity: 1} 
+			100% {opacity: 1}
+		}
+	</style>
+	<g transform="translate(16.5235 16.5234)">
+		<path id="e0LBqo9lTQH3" d="M0,0l23.151042.216548L0,23.151042Z" fill="#fff" stroke-width="0.264583"/>
+		<path id="e0LBqo9lTQH4" d="M-16.523494,39.368181l16.52338-16.217139-.15312,32.587398Z" fill="#fff" stroke-width="0.264583"/>
+		<path id="e0LBqo9lTQH5" d="M0,79.375l23.151042-.216548L0,56.223958Z" fill="#fff" stroke-width="0.264583"/>
+		<path id="e0LBqo9lTQH6" d="M39.368179,95.898494L23.151042,79.375l32.587396.153131Z" fill="#fff" stroke-width="0.264584"/>
+		<path id="e0LBqo9lTQH7" d="M79.375,79.375l-.216548-23.151042L56.223958,79.375Z" fill="#fff" stroke-width="0.264583"/>
+		<path id="e0LBqo9lTQH8" d="M95.898494,39.521301L79.375,55.738433l.153131-32.587391Z" fill="#fff" stroke-width="0.264584"/>
+		<path id="e0LBqo9lTQH9" d="M79.375,0l-.216548,23.151042L56.223958,0Z" fill="#fff" stroke-width="0.264583"/>
+		<path id="e0LBqo9lTQH10" d="M39.521301,-16.523382L55.738437,0l-32.587395-.153123Z" fill="#fff" stroke-width="0.264583"/>
+	</g>
+</svg>

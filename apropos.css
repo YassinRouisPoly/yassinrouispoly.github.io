@@ -1,0 +1,137 @@
+.whiteFiltered {
+	filter: brightness(0) saturate(100%) invert(92%) sepia(3%) saturate(3618%) hue-rotate(17deg) brightness(110%) contrast(99%);
+}
+
+body>.playButton {
+	display: block;
+	position: fixed;
+	z-index: 100;
+	width: 100vw;
+	height: 100vh;
+	font-size: max(10vh, 60px);
+	color: rgb(86, 152, 226);
+	background: rgb(22, 17, 15);
+	opacity: 1;
+	backdrop-filter: blur(20px);
+	pointer-events: all;
+	transition: backdrop-filter .2s, opacity .2s;
+}
+
+body>.playButton.hidden {
+	backdrop-filter: blur(0px);
+	pointer-events: none;
+	opacity: 0;
+}
+
+body>.playButton>i {
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	cursor: pointer;
+	transition: font-size .2s, opacity .2s;
+}
+
+body>.playButton:has(> i:hover) {
+	font-size: max(12vh, 80px);
+}
+
+body>.playButton.hidden>i {
+	font-size: max(20vh, 130px);
+}
+
+body>.quitButton {
+	display: flex;
+	position: absolute;
+	z-index: 100;
+	top: 16px;
+	left: 16px;
+	padding: 12px 15px;
+	border-radius: 6px;
+	gap: 15px;
+	font-size: 1.2em;
+	align-items: center;
+	justify-content: center;
+	background: rgba(100, 100, 100, .0);
+	backdrop-filter: blur(0px);
+	cursor: pointer;
+	text-decoration: none;
+	color: white;
+	transition: background .3s, filter .3s;
+}
+
+body>.quitButton:hover {
+	background: rgba(100, 100, 100, .5);
+	backdrop-filter: blur(10px);
+}
+
+body>.quitButton>span {
+	font-size: .65em;
+}
+
+body>.credits>div.credit {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	opacity: 0;
+	user-select: none;
+	pointer-events: none;
+	position: absolute;
+	transition: opacity .7s;
+}
+
+body>.credits>div.credit:nth-of-type(odd) {
+	bottom: 8em;
+	left: 80px;
+	transform: translateY(100%);
+}
+
+body>.credits>div.credit:nth-of-type(even) {
+	bottom: 8em;
+	right: 80px;
+	text-align: right;
+	transform: translateY(100%);
+}
+
+body.started>.credits>div.credit.show {
+	opacity: 1;
+}
+
+body>.credits>div.credit>.title {
+	font-weight: bold;
+}
+
+body>.credits>div.credit>.copyright {
+	font-style: italic;
+	font-size: .6em;
+}
+
+body>.logo>img {
+	display: block;
+	position: absolute;
+	width: auto;
+	height: max(12vh, 60px);
+	opacity: 0;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: opacity 3s;
+	user-select: none;
+	pointer-events: none;
+}
+
+body>div.logo.show>img {
+	opacity: 1;
+}
+
+#mainVideo>video {
+	object-fit: cover;
+	display: block;
+}
+
+#mainVideo>video {
+	overflow: hidden;
+	width: 100vw;
+	height: 100vh;
+}

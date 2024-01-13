@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta http-equiv="cache-control" content="no-cache" />
+	<title>Nous contacter | Hassan Technologies</title>
+	<link href="assets/css/mainStyle.css" rel="stylesheet" type="text/css" />
+	<link href="index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body theme="dark">
+	<div loading>
+		<img>
+	</div>
+	<header>
+		<img class="logo" src="assets/img/logo.svg" />
+		<div class="separator"></div>
+		<nav>
+			<a class="five" href="index.html">Accueil</a>
+			<a class="four" href="apropos.html">À propos</a>
+			<a class="three" href="equipe.html">Equipe</a>
+			<a class="two outline" href="projets.html">Projets</a>
+			<a class="one full active" href="contacter.html">Nous contacter</a>
+			<span class="one burger"><i class="ph-light ph-list"></i></span>
+		</nav>
+	</header>
+	<div id="burger-nav">
+		<a class="five" href="index.html">Accueil</a>
+		<a class="four" href="apropos.html">À propos</a>
+		<a class="three" href="equipe.html">Equipe</a>
+		<a class="two outline" href="projets.html">Projets</a>
+		<a class="one full active" href="contacter.html">Nous contacter</a>
+	</div>
+	<div class="main">
+		<div class="content">
+			<section class="has-centered">
+				<div class="content">
+					<div class="v-separator x150p"></div>
+					<h1 class="center">
+						Nous contacter
+					</h1>
+					<p>
+						<marquee>
+							Du au nombre important de demandes, vous pouvez remarquer un certain délai avec de recevoir une réponse. 
+						</marquee><br><br>
+						Vous pouvez nous contacter à le formulaire de contact suivant :
+						<form>
+							<label for="contact_dest">Destinataire </label>
+							<select id="contact_dest">
+								<option value="projet" default>Projet Hassan</option>
+								<option value="demande_service">Demande de service</option>
+								<option value="-" disabled>---</option>
+								<option value="fondateur">Fondateur (Yassin ROUIS)</option>
+							</select>
+							<label for="contact_name">Nom</label>
+							<input id="contact_name" type="text" placeholder="Tony Stark">
+							<label for="contact_subject">Objet</label>
+							<input id="contact_subject" type="text" placeholder="Objet du mail">
+							<label for="contact_body">Description</label>
+							<textarea id="contact_body" rows=4 placeholder="Contenu"></textarea>
+							<span style="font-family: 'Avenir LT Pro Oblique'; font-size: .7em; text-align: center;">
+								<script>
+									let hasOwnSystem = false;
+									if(!hasOwnSystem) {
+										document.write("Avant d'envoyer votre message, assurez vous de ne pas entrer d'informations personnelles. <br> Si vous souhaitez recevoir une réponse, ajoutez le \"-\" puis votre e-mail dans l'objet.");
+									} else {
+										document.write("Votre message est envoyé anonymement directement aux serveurs de manière chiffrée. <br> Avant d'envoyer votre message, assurez vous de ne pas entrer d'informations personnelles. ");
+									}
+								</script>
+							</span>
+							<button class="send">
+								<span class="icon ph-fill ph-paper-plane-tilt"></span>
+								Envoyer
+							</button>
+							
+						</form>
+					</p>
+					<div class="v-separator"></div>
+			</section>
+			<section class="footer-gradient"></section>
+			<footer align="center">
+				<div class="">
+				</div>
+				Projet Hassan 2022-2024 &copy; Tous droits réservés<br>
+				Site et images par Mohamed-Yassin ROUIS.<br>
+				<br>
+				Icones par Helena Zhang et Tobias Fried, sous license MIT.
+			</footer>
+		</div>
+	</div>
+
+	<a id="top"></a>
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/mainScript.js"></script>
+	<script src="contacter.js"></script>
+</body>
+
+</html>
