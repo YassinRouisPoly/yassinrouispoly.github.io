@@ -1,4 +1,4 @@
-let hosts = ["127.0.0.1"]
+let hosts = ["127.0.0.1", "yassinrouispoly.github.io"]
 
 function rndx() {
     return Math.random(Math.random() * 100000);
