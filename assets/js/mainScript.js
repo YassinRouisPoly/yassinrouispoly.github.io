@@ -17,7 +17,7 @@ function creerNuage() {
     nuage.attr("src", `assets/img/nuage_${Math.floor(Math.random() * 2)+1}.svg?random_key=${rndx()}`);
     nuage.addClass("nuage");
 
-    if (Math.random() > 0.5) {
+    if (Math.random() > 0.3) {
         nuage.addClass(["", "petit", "tpetit", "grand", "tgrand"][Math.floor(Math.random() * 5)])
         nuage.addClass(["", "rapide", "lent"][Math.floor(Math.random() * 3)])
         nuage.addClass(["", "inverse"][Math.floor(Math.random() * 2)])
