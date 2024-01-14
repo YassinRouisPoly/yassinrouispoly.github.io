@@ -8,7 +8,7 @@ function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 function creerNuage() {
-    if ($(".nuage").length >= 20) return;
+    if ($(".nuage").length >= 10) return;
     let plans = $(".parallax");
     let plan = $(plans.get(Math.floor(Math.random() * plans.length)));
 
@@ -41,7 +41,7 @@ function creerNuage() {
 
 (async () => {
     while (true) {
-        await sleep(Math.random() * 1000 + 2000);
+        await sleep(Math.random() * 2000 + 3000);
         creerNuage();
     }
 })()
